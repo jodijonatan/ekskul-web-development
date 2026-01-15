@@ -1,0 +1,45 @@
+body {
+  background-image: url("../assets/bg.jpg");
+}
+
+nav {
+  display: flex;
+  padding: 0px 30px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+li:hover {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  color: aqua;
+}
+
+a {
+  color: white;
+}
+
+p {
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+
+button {
+  background-color: #da5187;
+  padding: 20px 30px;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
